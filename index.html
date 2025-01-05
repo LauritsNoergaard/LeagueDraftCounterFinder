@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grid-container">
+
+        <div class="box" id="teamA">
+            <h1 id="champ1"></h1>
+            <h1 id="champ2"></h1>
+            <h1 id="champ3"></h1>
+            <h1 id="champ4"></h1>
+            <h1 id="champ5"></h1>
+        </div>
+
+        <div class="box" id="divider">
+            <h1>VS</h1>
+        </div>
+
+        <div class="box" id="teamB">
+            <select class="selector" id="champSelection1">
+                <option value="" disabled selected>Select a champion</option>
+            </select>
+            <select class="selector" id="champSelection2">
+                <option value="" disabled selected>Select a champion</option>
+            </select>
+            <select class="selector" id="champSelection3">
+                <option value="" disabled selected>Select a champion</option>
+            </select>
+            <select class="selector" id="champSelection4">
+                <option value="" disabled selected>Select a champion</option>
+            </select>
+            <select class="selector" id="champSelection5">
+                <option value="" disabled selected>Select a champion</option>
+            </select>
+            <!-- <button id="submitBTN" class="submitBTN">Generate counter team</button> FIXME: SHOULD IT BE INPUT TYPE OR <button> ???? -->
+            <input type="button" value="Generate counter team" class="submitBTN" id="champSubmitBTN">
+        </div>
+
+        <div class="box-graph" id="graph">
+            <h1 id="graphText">Graph evolution here</h1>
+            <div id="circle" class="circles">
+                <!-- Insert list of comps here -->
+
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="script.js"></script>
+</body>
+</html>

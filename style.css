@@ -1,0 +1,61 @@
+body {
+    background-color: darkgray;
+}
+
+.grid-container {
+    /* margin-left: 15%; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+.box {
+    text-align: center;
+}
+.selector {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30%;
+    margin-right: 200px;
+    display: block;
+    font-size: large;
+    background-color: darkcyan;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 50px;
+}
+.submitBTN {
+    display: block;
+    font-size: large;
+    background-color: darkcyan;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 50px;
+}
+.submitBTN:hover {
+    background-color: darkred;
+    transition: all .2s ease;
+}
+.circles {
+    text-align: center;
+}
+.circles.selected {
+    background-color: black;
+}
+
+#circle svg {
+    width: 1000px;
+    height: 1400px;
+}
+#circle svg circle {
+    r: 20;
+    /* fill: darkcyan; */
+    /* width: 900px;
+    height: 700px; */
+}
+.edge {
+    stroke: black;
+}
+#graphText {
+    text-align: center;
+    /* padding-left: 200px; */
+}

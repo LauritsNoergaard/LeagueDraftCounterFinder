@@ -1,0 +1,320 @@
+{
+    "allComps": {
+        "1": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Evelynn", "Irelia", "Caitlyn", "Leona"]
+        },
+        "2": {
+            "team": ["Dr. Mundo", "Elise", "Syndra", "Ezreal", "Lulu"],
+            "counters": ["Malphite", "Evelynn", "Irelia", "Caitlyn", "Blitzcrank"]
+        },
+        "3": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Ezreal", "Janna"],
+            "counters": ["Malphite", "Evelynn", "Irelia", "Caitlyn", "Yuumi"]
+        },
+        "4": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Ezreal", "Leona"],
+            "counters": ["Malphite", "Evelynn", "Irelia", "Caitlyn", "Rakan"]
+        },
+        "5": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Ezreal", "Nami"],
+            "counters": ["Malphite", "Evelynn", "Irelia", "Caitlyn", "Morgana"]
+        },
+        "6": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Ezreal", "Morgana"],
+            "counters": ["Malphite", "Evelynn", "Irelia", "Caitlyn", "Nami"]
+        },
+        "7": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Ezreal", "Yuumi"],
+            "counters": ["Malphite", "Evelynn", "Irelia", "Caitlyn", "Zilean"]
+        },
+        "8": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Ezreal", "Blitzcrank"],
+            "counters": ["Malphite", "Evelynn", "Irelia", "Caitlyn", "Yuumi"]
+        },
+        "9": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Ezreal", "Braum"],
+            "counters": ["Malphite", "Evelynn", "Irelia", "Caitlyn", "Leona"]
+        },
+        "10": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Ezreal", "Soraka"],
+            "counters": ["Malphite", "Evelynn", "Irelia", "Caitlyn", "Thresh"]
+        },
+        "11": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Ezreal", "Alistar"],
+            "counters": ["Malphite", "Evelynn", "Irelia", "Caitlyn", "Morgana"]
+        },
+        "12": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Ezreal", "Rakan"],
+            "counters": ["Malphite", "Evelynn", "Irelia", "Caitlyn", "Braum"]
+        },
+        "13": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Ezreal", "Senna"],
+            "counters": ["Malphite", "Evelynn", "Irelia", "Caitlyn", "Yuumi"]
+        },
+        "14": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Ezreal", "Nautilus"],
+            "counters": ["Malphite", "Evelynn", "Irelia", "Caitlyn", "Zilean"]
+        },
+        "15": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Ezreal", "Zilean"],
+            "counters": ["Malphite", "Evelynn", "Irelia", "Caitlyn", "Leona"]
+        },
+        "16": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Jinx", "Thresh"],
+            "counters": ["Caitlyn", "Evelynn", "Irelia", "Ezreal", "Leona"]
+        },
+        "17": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Caitlyn", "Thresh"],
+            "counters": ["Ashe", "Evelynn", "Irelia", "Ezreal", "Leona"]
+        },
+        "18": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Ashe", "Thresh"],
+            "counters": ["Tristana", "Evelynn", "Irelia", "Ezreal", "Leona"]
+        },
+        "19": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Tristana", "Thresh"],
+            "counters": ["Malphite", "Evelynn", "Irelia", "Ezreal", "Leona"]
+        },
+        "20": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Vayne", "Thresh"],
+            "counters": ["Miss Fortune", "Evelynn", "Irelia", "Ezreal", "Leona"]
+        },
+        "21": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Miss Fortune", "Thresh"],
+            "counters": ["Sivir", "Evelynn", "Irelia", "Ezreal", "Leona"]
+        },
+        "22": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Sivir", "Thresh"],
+            "counters": ["Kai'Sa", "Evelynn", "Irelia", "Ezreal", "Leona"]
+        },
+        "23": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Aphelios", "Evelynn", "Irelia", "Kai'Sa", "Leona"]
+        },
+        "24": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Kai'Sa", "Thresh"],
+            "counters": ["Draven", "Evelynn", "Irelia", "Ezreal", "Leona"]
+        },
+        "25": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Aphelios", "Thresh"],
+            "counters": ["Lucian", "Evelynn", "Irelia", "Ezreal", "Leona"]
+        },
+        "26": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Draven", "Thresh"],
+            "counters": ["Samira", "Evelynn", "Irelia", "Ezreal", "Leona"]
+        },
+        "27": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Lucian", "Thresh"],
+            "counters": ["Varus", "Evelynn", "Irelia", "Ezreal", "Leona"]
+        },
+        "28": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Samira", "Thresh"],
+            "counters": ["Xayah", "Evelynn", "Irelia", "Ezreal", "Leona"]
+        },
+        "29": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Varus", "Thresh"],
+            "counters": ["Jinx", "Evelynn", "Irelia", "Ezreal", "Leona"]
+        },
+        "30": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Xayah", "Thresh"],
+            "counters": ["Caitlyn", "Evelynn", "Irelia", "Ezreal", "Leona"]
+        },
+        "31": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Ahri", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Evelynn", "Orianna", "Caitlyn", "Leona"]
+        },
+        "32": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Orianna", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Evelynn", "Viktor", "Caitlyn", "Leona"]
+        },
+        "33": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Viktor", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Evelynn", "Kassadin", "Caitlyn", "Leona"]
+        },
+        "34": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Kassadin", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Evelynn", "Ahri", "Caitlyn", "Leona"]
+        },
+        "35": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Lissandra", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Evelynn", "Orianna", "Caitlyn", "Leona"]
+        },
+        "36": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Anivia", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Evelynn", "Viktor", "Caitlyn", "Leona"]
+        },
+        "37": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Taliyah", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Evelynn", "Kassadin", "Caitlyn", "Leona"]
+        },
+        "38": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Zed", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Evelynn", "Ahri", "Caitlyn", "Leona"]
+        },
+        "39": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Evelynn", "Orianna", "Caitlyn", "Leona"]
+        },
+        "40": {
+            "team": ["Dr. Mundo", "Jarvan IV", "Malzahar", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Evelynn", "Viktor", "Caitlyn", "Leona"]
+        },
+        "41": {
+            "team": ["Dr. Mundo", "Amumu", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Lee Sin", "Irelia", "Caitlyn", "Leona"]
+        },
+        "42": {
+            "team": ["Dr. Mundo", "Graves", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Kha'Zix", "Irelia", "Caitlyn", "Leona"]
+        },
+        "43": {
+            "team": ["Dr. Mundo", "Elise", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Nidalee", "Irelia", "Caitlyn", "Leona"]
+        },
+        "44": {
+            "team": ["Dr. Mundo", "Nunu", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Sejuani", "Irelia", "Caitlyn", "Leona"]
+        },
+        "45": {
+            "team": ["Dr. Mundo", "Sejuani", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Amumu", "Irelia", "Caitlyn", "Leona"]
+        },
+        "46": {
+            "team": ["Dr. Mundo", "Kindred", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Lee Sin", "Irelia", "Caitlyn", "Leona"]
+        },
+        "47": {
+            "team": ["Dr. Mundo", "Nocturne", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Kha'Zix", "Irelia", "Caitlyn", "Leona"]
+        },
+        "48": {
+            "team": ["Dr. Mundo", "Kayn", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Nidalee", "Irelia", "Caitlyn", "Leona"]
+        },
+        "49": {
+            "team": ["Dr. Mundo", "Shaco", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Sejuani", "Irelia", "Caitlyn", "Leona"]
+        },
+        "50": {
+            "team": ["Dr. Mundo", "Zac", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Malphite", "Amumu", "Irelia", "Caitlyn", "Leona"]
+        },
+        "51": {
+            "team": ["Garen", "Jarvan IV", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Renekton", "Evelynn", "Irelia", "Caitlyn", "Leona"]
+        },
+        "52": {
+            "team": ["Malphite", "Jarvan IV", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Darius", "Evelynn", "Irelia", "Caitlyn", "Leona"]
+        },
+        "53": {
+            "team": ["Shen", "Jarvan IV", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Garen", "Evelynn", "Irelia", "Caitlyn", "Leona"]
+        },
+        "54": {
+            "team": ["Nasus", "Jarvan IV", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Renekton", "Evelynn", "Irelia", "Caitlyn", "Leona"]
+        },
+        "55": {
+            "team": ["Renekton", "Jarvan IV", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Darius", "Evelynn", "Irelia", "Caitlyn", "Leona"]
+        },
+        "56": {
+            "team": ["Aatrox", "Jarvan IV", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Shen", "Evelynn", "Irelia", "Caitlyn", "Leona"]
+        },
+        "57": {
+            "team": ["Olaf", "Jarvan IV", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Yone", "Evelynn", "Irelia", "Caitlyn", "Leona"]
+        },
+        "58": {
+            "team": ["Olaf", "Viego", "Syndra", "Ezreal", "Thresh"],
+            "counters": ["Yone", "Vi", "Irelia", "Caitlyn", "Leona"]
+        },
+        "59": {
+            "team": ["Olaf", "Viego", "Galio", "Ezreal", "Thresh"],
+            "counters": ["Yone", "Vi", "Katarina", "Caitlyn", "Leona"]
+        },
+        "60": {
+            "team": ["Olaf", "Viego", "Galio", "Ashe", "Thresh"],
+            "counters": ["Yone", "Vi", "Katarina", "Aphelios", "Leona"]
+        },
+        "61": {
+            "team": ["Olaf", "Viego", "Galio", "Ashe", "Leona"],
+            "counters": ["Yone", "Vi", "Katarina", "Aphelios", "Rakan"]
+        },
+        "62": {
+            "team": ["Olaf", "Viego", "Galio", "Ashe", "Nami"],
+            "counters": ["Yone", "Vi", "Katarina", "Aphelios", "Morgana"]
+        },
+        "63": {
+            "team": ["Olaf", "Viego", "Galio", "Ashe", "Morgana"],
+            "counters": ["Yone", "Vi", "Katarina", "Aphelios", "Nami"]
+        },
+        "64": {
+            "team": ["Olaf", "Viego", "Galio", "Ashe", "Yuumi"],
+            "counters": ["Yone", "Vi", "Katarina", "Aphelios", "Zilean"]
+        },
+        "65": {
+            "team": ["Olaf", "Viego", "Galio", "Ashe", "Blitzcrank"],
+            "counters": ["Yone", "Vi", "Katarina", "Aphelios", "Yuumi"]
+        },
+        "66": {
+            "team": ["Olaf", "Viego", "Galio", "Ashe", "Braum"],
+            "counters": ["Yone", "Vi", "Katarina", "Aphelios", "Leona"]
+        },
+        "67": {
+            "team": ["Olaf", "Viego", "Galio", "Ashe", "Soraka"],
+            "counters": ["Yone", "Vi", "Katarina", "Aphelios", "Thresh"]
+        },
+        "68": {
+            "team": ["Olaf", "Viego", "Galio", "Ashe", "Alistar"],
+            "counters": ["Yone", "Vi", "Katarina", "Aphelios", "Morgana"]
+        },
+        "69": {
+            "team": ["Olaf", "Viego", "Galio", "Ashe", "Rakan"],
+            "counters": ["Yone", "Vi", "Katarina", "Aphelios", "Braum"]
+        },
+        "70": {
+            "team": ["Olaf", "Viego", "Galio", "Ashe", "Senna"],
+            "counters": ["Yone", "Vi", "Katarina", "Aphelios", "Yuumi"]
+        },
+        "71": {
+            "team": ["Olaf", "Viego", "Galio", "Ashe", "Nautilus"],
+            "counters": ["Yone", "Vi", "Katarina", "Aphelios", "Zilean"]
+        },
+        "72": {
+            "team": ["Olaf", "Viego", "Galio", "Ashe", "Zilean"],
+            "counters": ["Yone", "Vi", "Katarina", "Aphelios", "Leona"]
+        },
+        "73": {
+            "team": ["Olaf", "Viego", "Galio", "Jinx", "Rell"],
+            "counters": ["Yone", "Vi", "Katarina", "Ezreal", "Nautilus"]
+        },
+        "74": {
+            "team": ["Olaf", "Viego", "Galio", "Caitlyn", "Rell"],
+            "counters": ["Yone", "Vi", "Katarina", "Aphelios", "Nautilus"]
+        },
+        "75": {
+            "team": ["Olaf", "Viego", "Galio", "Ashe", "Rell"],
+            "counters": ["Yone", "Vi", "Katarina", "Aphelios", "Nautilus"]
+        },
+        "76": {
+            "team": ["Olaf", "Viego", "Galio", "Jinx", "Rell"],
+            "counters": ["Yone", "Vi", "Katarina", "Ezreal", "Nautilus"]
+        },
+        "77": {
+            "team": ["Olaf", "Viego", "Galio", "Caitlyn", "Rell"],
+            "counters": ["Yone", "Vi", "Katarina", "Aphelios", "Nautilus"]
+        },
+        "78": {
+            "team": ["Olaf", "Viego", "Galio", "Ashe", "Rell"],
+            "counters": ["Yone", "Vi", "Katarina", "Aphelios", "Nautilus"]
+        },
+        "79": {
+            "team": ["Olaf", "Viego", "Galio", "Ashe", "Rell"],
+            "counters": ["Yone", "Vi", "Katarina", "Aphelios", "Nautilus"]
+        }
+    }
+}
