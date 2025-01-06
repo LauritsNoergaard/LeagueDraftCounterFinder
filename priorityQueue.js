@@ -13,13 +13,10 @@ export class PriorityQueue {
     }
 
     isEmpty() {
-        console.log(this.queue.length)
         if (this.queue.length === 0) {
-            console.log("HEREEEE") 
             return true;
         }  
         else {
-            console.log("ELSE STATEMENT")
             return false;
         }
     }

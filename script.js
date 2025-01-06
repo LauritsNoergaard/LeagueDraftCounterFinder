@@ -25,12 +25,23 @@ let allComps = [];
 let enemyTeam =[];
 
 function displayChampions(comp) {
+    const team = comp.team;
+
+    if (comp === "searching") {
+        for (let i = 0; i < 5; i++) {
+            document.getElementById("champ" + (i+1)).innerHTML = "";
+        }
+        document.getElementById("champ" + (1)).innerHTML = "Searching";
+        return null;
+    }
 
     if (comp === "noTeam") {
+        for (let i = 0; i < 5; i++) {
+            document.getElementById("champ" + (i+1)).innerHTML = "";
+        }
         document.getElementById("champ" + (1)).innerHTML = "No team found";
         return null;
     }
-    const team = comp.team;
     
     for (let i = 0; i < 5; i++) {
         let champ = team[i];
@@ -112,6 +123,8 @@ function grabChamps() { //Grab the champions when the button is pushed
 }
 
 function findBestCounterTeamWithAStar(enemyTeam, graph) {
+    displayChampions("searching");
+
     let possibleComps = new PriorityQueue();
     let searchedComps = new Set();
 
@@ -166,19 +179,19 @@ function findBestCounterTeamWithAStar(enemyTeam, graph) {
                     const f = g + h;
 
                     possibleComps.enqueue({id: nId, g, f, team: n.team, counters: n.counters}, -f);
-                    console.log(searchedComps);
                 } else {
-                    console.log("Skip node, already seen it");
+                    console.log("Skipping node, already seen it");
                 }
             }
 
             if (i === 78 && bestComp) {
                 console.log("No comp counters all, but here is the best: ", bestComp, "With this score ", highestCounterScore);
                 displayChampions(bestComp);
-            } /* else {
-                //console.log("No comp found");
+            } else if (i === 78) {
+                console.log("No comp found");
+                displayChampions("noTeam");
             }
- */
+
         }, 100 * i); 
     } 
 }
