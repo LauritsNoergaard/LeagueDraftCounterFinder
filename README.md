@@ -8,6 +8,4 @@ Efter brugeren har trykket på knappen går algoritmen i gang, hvilket er visual
 
 Deployede applikation: https://lauritsnoergaard.github.io/LeagueDraftCounterFinder/
 
-Algoritme anvendt: A*
-
-Datastrukturer anvendt: Graph, Priority queue
+Algoritme anvendt: A*, Datastrukturer anvendt: Graph, Priority queue
