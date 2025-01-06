@@ -56,6 +56,11 @@ function displayGraph(graph) {
     const columns = 10;
     const nodeSpacing = 100;
 
+    const existingCircles = document.getElementById('circle');
+    for (let i = existingCircles.childNodes.length - 1; i > 0; i--) {
+        existingCircles.removeChild(existingCircles.childNodes[i]);
+    }
+
     const svg = document.createElementNS(svgNamespace, "svg");
     
     const circlePositions = {}; //Save positions for when lines between circles need to be drawn
@@ -124,6 +129,7 @@ function grabChamps() { //Grab the champions when the button is pushed
 
 function findBestCounterTeamWithAStar(enemyTeam, graph) {
     displayChampions("searching");
+    displayGraph(graph);
 
     let possibleComps = new PriorityQueue();
     let searchedComps = new Set();
