@@ -20,7 +20,6 @@ const allChampionNames = ["Aatrox", "Ahri", "Akali", "Akshan", "Alistar", "Ambes
   "Yasuo", "Yone", "Yorick", "Yuumi", "Zac", "Zed", "Zeri", "Ziggs", "Zilean", "Zoe",
   "Zyra"];
 
-let allChampions = [];
 let allComps = [];
 
 let enemyTeam =[];
@@ -31,8 +30,6 @@ function displayChampions(comp) {
         document.getElementById("champ" + (1)).innerHTML = "No team found";
         return null;
     }
-    // This should be the returned team from the "TESTworkWithChosenChamps" function
-    //let comp = Object.keys(allComps)[0];
     const team = comp.team;
     
     for (let i = 0; i < 5; i++) {
@@ -42,21 +39,18 @@ function displayChampions(comp) {
 }
 
 //Display graph
-function displayGraph(graph) { //Graph most likely not needed
-    //todo: Potentially get the element circle div?
+function displayGraph(graph) { 
     const svgNamespace = "http://www.w3.org/2000/svg";
 
-    //const totalNodes = 56;
     const columns = 10;
     const nodeSpacing = 100;
 
     const svg = document.createElementNS(svgNamespace, "svg");
-    //^^EXPLAIN THIS LINE OF CODE
     
-    const circlePositions = {}; //Storage for when lines between nodes need to be drawn
+    const circlePositions = {}; //Save positions for when lines between circles need to be drawn
     let circleIndex = 0;
 
-    for (let comp in allComps) {  //Graph here instead of allComps??  
+    for (let comp in allComps) { 
         const x = 50 + (circleIndex % columns) * nodeSpacing;
         const y = 50 + Math.floor(circleIndex/columns) * nodeSpacing;
 
@@ -77,7 +71,7 @@ function displayGraph(graph) { //Graph most likely not needed
     for (let comp in allComps) {
         const {x: x1, y: y1} = circlePositions[comp];
 
-        graph[comp].forEach((champDiff) => { //fixme: neighborId instead of comp?
+        graph[comp].forEach((champDiff) => {
             const {x: x2, y: y2} = circlePositions[champDiff];
             const edge = document.createElementNS(svgNamespace, "line");
             edge.setAttribute("x1", x1);
@@ -114,12 +108,10 @@ function grabChamps() { //Grab the champions when the button is pushed
     }
 
     enemyTeam = chosenChamps;
-    //findBestCounterTeam(enemyTeam);
     findBestCounterTeamWithAStar(enemyTeam, graph);
 }
 
 function findBestCounterTeamWithAStar(enemyTeam, graph) {
-    //List with possible comps
     let possibleComps = new PriorityQueue();
     let searchedComps = new Set();
 
@@ -130,14 +122,12 @@ function findBestCounterTeamWithAStar(enemyTeam, graph) {
     for (let comp in allComps) {
         const currComp = allComps[comp];
         const h = counterHeuristic(currComp.counters, enemyTeam);
-        //console.log(comp);
-        possibleComps.enqueue({id: comp, g: 0, f: h, team: currComp.team, counters: currComp.counters}, -h); // possibleComps.enqueue({currComp}, -h); - TODO: I'M UNSURE ABOUT WHY -h HERE - UNDERSTAND THIS !!!!!
+        possibleComps.enqueue({id: comp, g: 0, f: h, team: currComp.team, counters: currComp.counters}, -h);
     }
 
     //Search
-    for (let i = 0; i < 79; i++) { //!possibleComps.isEmpty()
+    for (let i = 0; i < 79; i++) {
         setTimeout(() => {
-            //document.getElementById("comp" + (i+1)).classList.add("selected");
 
             const curr = possibleComps.dequeue();
 
@@ -152,7 +142,7 @@ function findBestCounterTeamWithAStar(enemyTeam, graph) {
             }
 
             //Mark as searched
-            searchedComps.add(curr.id); //fixme: Does it have to be . something? Like curr.team/id?
+            searchedComps.add(curr.id); 
 
             const counterScore = counterHeuristic(curr.counters, enemyTeam);
 
@@ -161,14 +151,12 @@ function findBestCounterTeamWithAStar(enemyTeam, graph) {
                 bestComp = curr;
             }
 
-            if (counterScore === 5) { // 5 when every champ has 1 counter champ, it can never be more than 5. If you add more counter champs then change this number accordingly
+            if (counterScore === 5) { // 5 when every champ has 1 counter champ, it can never be more than 5.
                 console.log("Found team that counters every champ", curr.team);
-                //^^It's possible for more than 1 comp to have 5 counter score, so maybe then you could look at the synergies of the team next? To choose the best of those.
+                //^^It's possible for more than 1 comp to have 5 counter score, synergi could be looked at afterwards to find the best team amongst those
                 displayChampions(curr);
-                return; //End search as a perfect counter team has been found
+                return; 
             }
-
-            //todo: HAVE THIS EXPLAINED/BE ABLE TO EXPLAIN THIS
             
             for (let nId of graph[curr.id]) {
                 if (!searchedComps.has(nId)) {
@@ -185,23 +173,6 @@ function findBestCounterTeamWithAStar(enemyTeam, graph) {
             }
 
             if (i === 78 && bestComp) {
-                console.log("No comp counters all, checking unfavoured ones as well to be sure");
-                /* for (let comp in allComps) { //fixme: Consider implementing this to make sure all are checked, good in the project but not necesarry for A*
-                    if (!searchedComps.has(comp)) {
-                        const fallbackNode = allComps[comp];
-                        console.log("Processing remaining node:", comp);
-                        searchedComps.add(comp);
-                        const circleLeft = document.getElementById("circle" + comp);
-                        circleLeft.setAttribute("fill", "red");
-                        const counterScore = counterHeuristic(fallbackNode.counters, enemyTeam);
-                        if (counterScore > highestCounterScore) {
-                            highestCounterScore = counterScore;
-                            bestComp = { id: comp, team: fallbackNode.team };
-                            
-                        }
-                        displayChampions(bestComp);
-                    }
-                } */
                 console.log("No comp counters all, but here is the best: ", bestComp, "With this score ", highestCounterScore);
                 displayChampions(bestComp);
             } /* else {
@@ -259,18 +230,5 @@ async function start() {
     displayGraph(makeGraph(allComps));
     
     champOptions();
-    //displayChampions();
     document.getElementById('champSubmitBTN').onclick = grabChamps;
 }
-
-
-/* 
-STATUS:
-- There's a working site now that picks a good counter comp
-- So far it's not A*, there's for instancee no heuristic, it just goes through all comps
-- Next step maybe check ChatGPT convos about A* implementation with comps stored? 
-Also of course the following is needed:
-- More comps (MAKE EACH COMP CHANGE BY 1 CHAMPION AT A TIME FOR THE GRAPH/EDGE REPRESENTATION)
-- Visualization
-- Actually making it A* search
-*/

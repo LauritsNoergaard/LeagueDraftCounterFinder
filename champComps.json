@@ -62,15 +62,15 @@
         },
         "16": {
             "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Jinx", "Thresh"],
-            "counters": ["Caitlyn", "Evelynn", "Irelia", "Ezreal", "Leona"]
+            "counters": ["Malphite", "Evelynn", "Irelia", "Ezreal", "Leona"]
         },
         "17": {
             "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Caitlyn", "Thresh"],
-            "counters": ["Ashe", "Evelynn", "Irelia", "Ezreal", "Leona"]
+            "counters": ["Malphite", "Evelynn", "Irelia", "Jinx", "Leona"]
         },
         "18": {
             "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Ashe", "Thresh"],
-            "counters": ["Tristana", "Evelynn", "Irelia", "Ezreal", "Leona"]
+            "counters": ["Malphite", "Evelynn", "Irelia", "Ezreal", "Leona"]
         },
         "19": {
             "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Tristana", "Thresh"],
@@ -78,47 +78,47 @@
         },
         "20": {
             "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Vayne", "Thresh"],
-            "counters": ["Miss Fortune", "Evelynn", "Irelia", "Ezreal", "Leona"]
+            "counters": ["Malphite", "Evelynn", "Irelia", "Ezreal", "Leona"]
         },
         "21": {
             "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Miss Fortune", "Thresh"],
-            "counters": ["Sivir", "Evelynn", "Irelia", "Ezreal", "Leona"]
+            "counters": ["Malphite", "Evelynn", "Irelia", "Ezreal", "Leona"]
         },
         "22": {
             "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Sivir", "Thresh"],
-            "counters": ["Kai'Sa", "Evelynn", "Irelia", "Ezreal", "Leona"]
+            "counters": ["Malphite", "Evelynn", "Irelia", "Ezreal", "Leona"]
         },
         "23": {
             "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Ezreal", "Thresh"],
-            "counters": ["Aphelios", "Evelynn", "Irelia", "Kai'Sa", "Leona"]
+            "counters": ["Malphite", "Evelynn", "Irelia", "Kai'Sa", "Leona"]
         },
         "24": {
             "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Kai'Sa", "Thresh"],
-            "counters": ["Draven", "Evelynn", "Irelia", "Ezreal", "Leona"]
+            "counters": ["Malphite", "Evelynn", "Irelia", "Ezreal", "Leona"]
         },
         "25": {
             "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Aphelios", "Thresh"],
-            "counters": ["Lucian", "Evelynn", "Irelia", "Ezreal", "Leona"]
+            "counters": ["Malphite", "Evelynn", "Irelia", "Ezreal", "Leona"]
         },
         "26": {
             "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Draven", "Thresh"],
-            "counters": ["Samira", "Evelynn", "Irelia", "Ezreal", "Leona"]
+            "counters": ["Malphite", "Evelynn", "Irelia", "Ezreal", "Leona"]
         },
         "27": {
             "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Lucian", "Thresh"],
-            "counters": ["Varus", "Evelynn", "Irelia", "Ezreal", "Leona"]
+            "counters": ["Malphite", "Evelynn", "Irelia", "Ezreal", "Leona"]
         },
         "28": {
             "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Samira", "Thresh"],
-            "counters": ["Xayah", "Evelynn", "Irelia", "Ezreal", "Leona"]
+            "counters": ["Malphite", "Evelynn", "Irelia", "Ezreal", "Leona"]
         },
         "29": {
             "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Varus", "Thresh"],
-            "counters": ["Jinx", "Evelynn", "Irelia", "Ezreal", "Leona"]
+            "counters": ["Malphite", "Evelynn", "Irelia", "Ezreal", "Leona"]
         },
         "30": {
             "team": ["Dr. Mundo", "Jarvan IV", "Syndra", "Xayah", "Thresh"],
-            "counters": ["Caitlyn", "Evelynn", "Irelia", "Ezreal", "Leona"]
+            "counters": ["Malphite", "Evelynn", "Irelia", "Ezreal", "Leona"]
         },
         "31": {
             "team": ["Dr. Mundo", "Jarvan IV", "Ahri", "Ezreal", "Thresh"],
@@ -298,7 +298,7 @@
         },
         "75": {
             "team": ["Olaf", "Viego", "Galio", "Ashe", "Rell"],
-            "counters": ["Yone", "Vi", "Katarina", "Aphelios", "Nautilus"]
+            "counters": ["Yone", "Vi", "Katarina", "Jinx", "Nautilus"]
         },
         "76": {
             "team": ["Olaf", "Viego", "Galio", "Jinx", "Rell"],
